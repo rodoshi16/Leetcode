@@ -43,10 +43,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 | [0200-number-of-islands](https://github.com/rodoshi16/Leetcode/tree/master/0200-number-of-islands) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 | [0200-number-of-islands](https://github.com/rodoshi16/Leetcode/tree/master/0200-number-of-islands) |
 ## Matrix
 |  |
@@ -56,4 +58,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0020-valid-parentheses) |
+## Tree
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 <!---LeetCode Topics End-->
