@@ -7,7 +7,7 @@ class Codec:
         """Encodes a URL to a shortened URL.
         """
         self.counter += 1 
-        new_s = f"{longUrl[::8]}tinyurl.com/{self.counter}"
+        new_s = f"http://tinyurl.com/{self.counter}"
         self.d[new_s] = longUrl 
         return new_s
 
