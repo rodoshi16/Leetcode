@@ -9,19 +9,33 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        visited = {}
+        #do dfs
+        #create a new graph and connect to rebuild 
+
         if node is None:
-            return node
-        def dfs(node): 
-            if node in visited:
-                return visited[node]
-            
-            clone = Node(node.val)
-            visited[node] = clone
-
-            for n in node.neighbors:
-                clone.neighbors.append(dfs(n))
+            return None
         
-            return clone 
+        visited = set()
+        d = {}
+    
+        def dfs(source):
+            visited.add(source)
+            d[source] = Node(source.val)
+            
+            
+            for nei in source.neighbors:
+                if nei not in visited:
+                    dfs(nei)
+                d[source].neighbors.append(d[nei])
+            
+        
+        dfs(node)
+        return d[node]
 
-        return dfs(node)
+    
+        
+        
+       
+
+    
+        
