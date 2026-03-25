@@ -1,11 +1,13 @@
 import random
 class Codec:
     d = {}
+    counter = 1 
 
     def encode(self, longUrl: str) -> str:
         """Encodes a URL to a shortened URL.
         """
-        new_s = f"{longUrl[::8]}tinyurl.com/{random.randint(0, 19029)}"
+        self.counter += 1 
+        new_s = f"{longUrl[::8]}tinyurl.com/{self.counter}"
         self.d[new_s] = longUrl 
         return new_s
 
