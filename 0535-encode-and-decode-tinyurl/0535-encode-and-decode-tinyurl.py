@@ -11,10 +11,9 @@ class Codec:
     def decode(self, shortUrl: str) -> str:
         """Decodes a shortened URL to its original URL.
         """
-        if shortUrl in self.d:
-            return self.d[shortUrl]
-        else:
-            return ""
+ 
+        return self.d[shortUrl]
+    
         
 
 # Your Codec object will be instantiated and called as such:
