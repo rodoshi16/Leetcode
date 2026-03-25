@@ -13,25 +13,26 @@ class Solution:
         #create a new graph and connect to rebuild 
 
         if node is None:
-            return None
+            return node
         
-        visited = set()
         d = {}
     
         def dfs(source):
-            visited.add(source)
-            d[source] = Node(source.val)
-            
+            if source in d:
+                return d[source]
+        
+            clone = Node(source.val)
+            d[source] = clone
             
             for nei in source.neighbors:
-                if nei not in visited:
-                    dfs(nei)
-                d[source].neighbors.append(d[nei])
+                #take the old node and use that to go through nei 
+                #append that to the new guys 
+                clone.neighbors.append(dfs(nei))
             
-        
-        dfs(node)
-        return d[node]
-
+            return clone 
+            
+    
+        return dfs(node)
     
         
         
