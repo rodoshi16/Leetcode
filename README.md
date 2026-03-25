@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/rodoshi16/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/rodoshi16/Leetcode/tree/master/0133-clone-graph) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
+| [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 ## Union-Find
 |  |
 | ------- |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/rodoshi16/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/rodoshi16/Leetcode/tree/master/0125-valid-palindrome) |
+| [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 ## Greedy
 |  |
 | ------- |
@@ -101,4 +103,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
+## Design
+|  |
+| ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
+## Hash Function
+|  |
+| ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 <!---LeetCode Topics End-->
