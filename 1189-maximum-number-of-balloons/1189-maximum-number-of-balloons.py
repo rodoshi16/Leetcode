@@ -1,3 +1,5 @@
+from collections import Counter
+import math
 class Solution:
     def maxNumberOfBalloons(self, text: str) -> int:
         #input: str 
@@ -12,22 +14,20 @@ class Solution:
         #only count the characters of balloon
         # capped by the minimum number 
         # if any characters of balloon not present, return 0 
+    
 
+        d = Counter(text)
+        res = math.inf
 
-        d = {}
-        for ch in text:
-            if ch not in d:
-                d[ch] = 1
-            else:
-                d[ch] += 1 
-        
         for ch in "balloon":
-            if ch not in d :
-                return 0
+            if ch in "lo":
+                n = 2 
+            else:
+                n = 1 
+            
+            res = min(res, d[ch]//n)
+        
+        return res
+
 
         
-        return min(d["b"], d["a"], d["l"]//2, d["o"]//2, d["n"])
-
-
-
-       
