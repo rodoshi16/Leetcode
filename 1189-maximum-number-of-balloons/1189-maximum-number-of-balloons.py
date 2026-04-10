@@ -16,9 +16,7 @@ class Solution:
 
         d = {}
         for ch in text:
-            if ch not in "balloon":
-                continue
-            elif ch not in d:
+            if ch not in d:
                 d[ch] = 1
             else:
                 d[ch] += 1 
