@@ -24,7 +24,7 @@ class Solution:
                 d[ch] += 1 
         
         for ch in "balloon":
-            if ch not in d or d["l"] < 2 or d["o"] < 2 :
+            if ch not in d :
                 return 0
 
         
