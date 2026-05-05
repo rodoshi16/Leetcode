@@ -1,21 +1,26 @@
 from collections import deque 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-       #input: nums
-       #output: return the majority element
+        # if len(nums) == 1:
+        #         return nums[0]
 
-       #scan and map 
-       # scan through dict and check count 
+        # d = {}
+        # for ele in nums:
+        #         if ele not in d:
+        #             d[ele] = 1
+        #         else:
+        #             d[ele] += 1 
+        #             if d[ele] > len(nums)/2:
+        #                 return ele
 
-       if len(nums) == 1:
-            return nums[0]
+        candidate = None
+        count = 0 
 
-       d = {}
-       for ele in nums:
-            if ele not in d:
-                d[ele] = 1
+        for num in nums:
+            if count == 0:
+                candidate = num
+            if num == candidate:
+                count += 1 
             else:
-                d[ele] += 1 
-                if d[ele] > len(nums)/2:
-                    return ele
-        
+                count -=1 
+        return candidate 
