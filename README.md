@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/rodoshi16/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/rodoshi16/Leetcode/tree/master/0015-3sum) |
 | [0128-longest-consecutive-sequence](https://github.com/rodoshi16/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/rodoshi16/Leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/rodoshi16/Leetcode/tree/master/0283-move-zeroes) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/rodoshi16/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/rodoshi16/Leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/rodoshi16/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/rodoshi16/Leetcode/tree/master/0015-3sum) |
+| [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 ## Linked List
@@ -134,5 +137,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
