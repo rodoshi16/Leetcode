@@ -7,16 +7,14 @@ class Solution:
         #naive: scan until zero, pop and append 
         # 2 pointer 
         
-        [0,1,0,3,12]
+        # [0,1,0,3,12]
         #everything on left -> non zero
-
-        #RIGHT pointer will always move forward 
 
         left = 0 
         for right in range(len(nums)):
             if nums[right] != 0:
                 nums[left], nums[right] = nums[right], nums[left]
-                left += 1 
+                left +=1 
 
 
 
