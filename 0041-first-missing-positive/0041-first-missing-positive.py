@@ -14,8 +14,7 @@ class Solution:
 
         for i in range(len(nums)):
             val = abs(nums[i])
-            if val <= len(nums):
-                if nums[val-1] > 0: 
+            if val <= len(nums) and nums[val-1] > 0: 
                     nums[val-1] = - nums[val-1]
         
         for i in range(len(nums)):
