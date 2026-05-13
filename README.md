@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/rodoshi16/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
+| [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 ## Hash Table
 |  |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
+| [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 ## Union-Find
@@ -165,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/rodoshi16/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Dynamic Programming
 |  |
 | ------- |
