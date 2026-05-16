@@ -1,27 +1,18 @@
-from collections import deque
 class Solution:
     def isValid(self, s: str) -> bool:
-        #opening -> push to stack 
-        # cloing -> pop stack
-        # if stack is empty -> true 
+        d = {"(": ")", "[": "]", "{": "}"}
 
-        # ( push, ) pop if empty -> FALSE 
         st = []
-        d = {"(": ")", "{": "}", "[": "]"}
-
-        for c in s:
-            if c in d.keys():
-                st.append(c)
-            elif c in d.values():
-                if not st:
-                    return False 
-                if d[st.pop()] != c:
+        for i in range(len(s)):
+            if s[i] in d:
+                st.append(s[i])
+            else:
+                if len(st) > 0 and st[-1] in d.values():
+                    st.append(s[i])
+                elif len(st) > 0 and s[i] == d[st[-1]]:
+                    st.pop()
+                else:
                     return False
-        
-        return not st 
-
-
-
-                                                                                                                                                                                                                                           
 
         
+        return len(st) == 0
