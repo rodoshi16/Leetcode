@@ -1,12 +1,15 @@
 class Solution:
     def fib(self, n: int) -> int:
-        memo = {0:0, 1:1}
+        if n == 0:
+            return 0 
+            
+        dp = [0] * (n+1)
+        dp[1] = 1 
 
-        def f(n):
-            if n in memo:
-                return memo[n]
-            else:
-                memo[n] = f(n-1) + f(n-2)
+        for i in range(2, n+1):
+            dp[i] = dp[i-1] + dp[i-2]
+        
+        return dp[n]
 
-            return memo[n]
-        return f(n)
+
+        
