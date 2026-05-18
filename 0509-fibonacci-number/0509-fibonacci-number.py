@@ -6,7 +6,7 @@ class Solution:
             if n in memo:
                 return memo[n]
             else:
-                memo[n] = self.fib(n-1) + self.fib(n-2)
+                memo[n] = f(n-1) + f(n-2)
 
             return memo[n]
         return f(n)
