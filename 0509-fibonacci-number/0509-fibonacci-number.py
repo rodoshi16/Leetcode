@@ -6,5 +6,6 @@ class Solution:
             c += memo[n]
         else:
             c += self.fib(n-1) + self.fib(n-2)
+            memo[n] = c
         
         return c
