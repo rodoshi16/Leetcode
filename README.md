@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/rodoshi16/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
+| [0416-partition-equal-subset-sum](https://github.com/rodoshi16/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0525-contiguous-array](https://github.com/rodoshi16/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/rodoshi16/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/rodoshi16/Leetcode/tree/master/0213-house-robber-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/rodoshi16/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/rodoshi16/Leetcode/tree/master/0509-fibonacci-number) |
 ## Math
 |  |
