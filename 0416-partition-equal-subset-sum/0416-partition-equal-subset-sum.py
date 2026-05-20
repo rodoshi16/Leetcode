@@ -1,39 +1,27 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         n = len(nums)
-        total = sum(nums)
 
-        if n == 1 or total % 2 == 1:
-            return False
+        if n == 1 or sum(nums) % 2 == 1:
+            return False 
         
-        target = total // 2
+        dp = set()
+        dp.add(0)
+        target = sum(nums) // 2
 
-        r = set()
-        r.add(0)
-    
         for i in range(len(nums)):
             if nums[i] == target:
-                return True 
-            
+                return True
             s = set()
-            for ele in r:
-                n = nums[i] + ele
-                s.add(n)
-                if n == target:
+            for ele in dp:
+                e = nums[i] + ele
+                s.add(e)
+                if e == target:
                     return True
             for ele in s:
-                r.add(ele)
-            
-        return False
+                dp.add(ele)
         
-
-
-
-            
-
-            
-
-
-
         return False
+    
+        
         
