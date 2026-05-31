@@ -1,6 +1,9 @@
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
 
+        # time: 0(n*sum(nums)) - the max number of keys stored in the dict is between -sum(nums) and sum(nums)
+        # space: 0(sum(nums))
+
         if len(nums) == 1:
             if nums[0] == 0:
                 return 2 
