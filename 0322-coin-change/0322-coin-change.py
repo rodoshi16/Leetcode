@@ -1,22 +1,29 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        q = deque([(0, 0)])  # (current_amount, coins_used)
-        visited = {0}
+        dp = [float('inf')] * (amount + 1)
+        dp[0] = 0
 
-        while q:
-            curr, steps = q.popleft()
+        for a in range(1, amount + 1):
+            for c in coins:
+                if a >= c:
+                    dp[a] = min(dp[a], dp[a - c] + 1)
 
-            if curr == amount:
-                return steps
+        return dp[amount] if dp[amount] != float('inf') else -1
 
-            for coin in coins:
-                nxt = curr + coin
 
-                if nxt <= amount and nxt not in visited:
-                    visited.add(nxt)
-                    q.append((nxt, steps + 1))
 
-        return -1
+
+
+
+
+
+
+
+
+
+
+
+
 
         # if amount == 0:
         #     return 0
@@ -43,7 +50,6 @@ class Solution:
         #                 return i
         #     i += 1
         #     dp = s
-        
         # return -1
 
 
