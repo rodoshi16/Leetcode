@@ -28,32 +28,3 @@ class Solution:
         curr = head
         
         return d[curr]
-
-        # d = {None: None}
-
-        # curr = head
-        # dummy = Node(0)
-        # head1 = dummy
-        # while curr is not None:
-        #     if curr not in d:
-        #         n1 = Node(curr.val)
-        #         d[curr] = n1
-        #         dummy.next = n1
-            
-        #     else:
-        #         dummy.next = d[curr]
-            
-        #     dummy = dummy.next
-            
-        #     if curr.next in d:
-        #         d[curr].next = d[curr.next]
-            
-        #     if curr.random in d:
-        #         d[curr].random = d[curr.random]
-            
-        #     curr = curr.next
-        
-        # return head1.next
-        
-
-\
