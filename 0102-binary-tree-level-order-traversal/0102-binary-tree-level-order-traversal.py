@@ -11,7 +11,7 @@ class Solution:
             return []
         
         q = [root]
-        visited = [[root.val]]
+        visited = []
 
 
         while q:
@@ -21,14 +21,15 @@ class Solution:
 
             for i in range(s):
                 n = q.pop(0)
+                lst.append(n.val)
     
                 if n.left:
                     t.append(n.left)
-                    lst.append(n.left.val)
+                    
                 
                 if n.right:
                     t.append(n.right)
-                    lst.append(n.right.val)
+                    
                 
             if lst != []:
                 visited.append(lst)
@@ -38,27 +39,34 @@ class Solution:
         return visited
 
 
+
         # if root is None:
         #     return []
         
         # q = [root]
-        # lst = [[root.val]]
+        # visited = [[root.val]]
+
+
         # while q:
-            
-        #     n = q.pop(0)
+        #     lst = []
+        #     s = len(q)
         #     t = []
 
-        #     if n.left:
-        #         q.append(n.left)
-        #         t.append(n.left.val)
-            
-        #     if n.right:
-        #         q.append(n.right)
-        #         t.append(n.right.val)
-            
-        #     if t != []:
-        #         lst.append(t)
-        
-        # return lst
+        #     for i in range(s):
+        #         n = q.pop(0)
     
+        #         if n.left:
+        #             t.append(n.left)
+        #             lst.append(n.left.val)
+                
+        #         if n.right:
+        #             t.append(n.right)
+        #             lst.append(n.right.val)
+                
+        #     if lst != []:
+        #         visited.append(lst)
+                
+        #     q.extend(t)
     
+        # return visited
+
