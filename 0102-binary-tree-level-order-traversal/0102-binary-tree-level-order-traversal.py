@@ -18,24 +18,21 @@ class Solution:
         while q:
             lst = []
             s = len(q)
-            t = []
 
             for i in range(s):
                 n = q.popleft()
                 lst.append(n.val)
     
                 if n.left:
-                    t.append(n.left)
+                    q.append(n.left)
                     
                 
                 if n.right:
-                    t.append(n.right)
+                    q.append(n.right)
                     
                 
             if lst != []:
                 visited.append(lst)
-                
-            q.extend(t)
     
         return visited
 
