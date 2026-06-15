@@ -1,3 +1,4 @@
+from collections import deque
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -10,7 +11,7 @@ class Solution:
         if root is None:
             return []
         
-        q = [root]
+        q = deque([root])
         visited = []
 
 
@@ -20,7 +21,7 @@ class Solution:
             t = []
 
             for i in range(s):
-                n = q.pop(0)
+                n = q.popleft()
                 lst.append(n.val)
     
                 if n.left:
