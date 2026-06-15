@@ -33,38 +33,3 @@ class Solution:
                 visited.append(level[-1])
         
         return visited 
-
-                
-
-
-
-
-
-
-
-
-
-
-        # if root is None:
-        #     return []
-
-        # q = deque([root])
-        # visited = []
-
-        # while q:
-        #     level_size = len(q)
-        #     lst = []
-
-        #     for i in range(level_size):
-        #         node = q.popleft()
-        #         lst.append(node.val)
-
-        #         if node.left:
-        #             q.append(node.left)
-        #         if node.right:
-        #             q.append(node.right)
-            
-        #     visited.append(lst[-1])
-        
-        # return visited 
-                
