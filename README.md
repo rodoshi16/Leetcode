@@ -7,6 +7,7 @@
 | [0011-container-with-most-water](https://github.com/rodoshi16/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/rodoshi16/Leetcode/tree/master/0015-3sum) |
 | [0041-first-missing-positive](https://github.com/rodoshi16/Leetcode/tree/master/0041-first-missing-positive) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rodoshi16/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/rodoshi16/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
@@ -129,6 +130,7 @@
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rodoshi16/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rodoshi16/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/rodoshi16/Leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -138,6 +140,7 @@
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rodoshi16/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rodoshi16/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/rodoshi16/Leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -208,6 +211,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rodoshi16/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 ## Database
 |  |
@@ -253,4 +257,8 @@
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rodoshi16/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 <!---LeetCode Topics End-->
