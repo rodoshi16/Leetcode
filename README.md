@@ -90,6 +90,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rodoshi16/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0133-clone-graph](https://github.com/rodoshi16/Leetcode/tree/master/0133-clone-graph) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
@@ -102,6 +103,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rodoshi16/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0133-clone-graph](https://github.com/rodoshi16/Leetcode/tree/master/0133-clone-graph) |
@@ -125,6 +127,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rodoshi16/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
@@ -133,6 +136,7 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rodoshi16/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
