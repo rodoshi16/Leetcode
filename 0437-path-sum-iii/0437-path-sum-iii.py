@@ -10,21 +10,39 @@ class Solution:
 
         if root is None:
             return 0
-
-        def dfs(n, remaining):
-            if n is None:
+        
+        def dfs(r, remaining):
+            if r is None:
                 return 0
-            
-            if remaining - n.val == 0:
+            if r.val == remaining:
                 count = 1 
             else:
-                count = 0
-
-            count += dfs(n.left, remaining - n.val)
-            count += dfs(n.right, remaining - n.val)
-            return count
+                count = 0 
+            
+            count += dfs(r.left, remaining - r.val)
+            count += dfs(r.right, remaining - r.val)
         
+            return count
+
         return dfs(root, targetSum) + self.pathSum(root.left, targetSum) + self.pathSum(root.right, targetSum)
+
+        # if root is None:
+        #     return 0
+
+        # def dfs(n, remaining):
+        #     if n is None:
+        #         return 0
+            
+        #     if remaining - n.val == 0:
+        #         count = 1 
+        #     else:
+        #         count = 0
+
+        #     count += dfs(n.left, remaining - n.val)
+        #     count += dfs(n.right, remaining - n.val)
+        #     return count
+        
+        # return dfs(root, targetSum) + self.pathSum(root.left, targetSum) + self.pathSum(root.right, targetSum)
 
        
 
