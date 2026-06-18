@@ -92,6 +92,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rodoshi16/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
@@ -124,12 +125,14 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0020-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/rodoshi16/Leetcode/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/rodoshi16/Leetcode/tree/master/0155-min-stack) |
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
@@ -142,6 +145,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/rodoshi16/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/rodoshi16/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
