@@ -11,16 +11,13 @@ class Solution:
         if root is None:
             return None
 
-        # if we found p or q, return it
         if root == p or root == q:
             return root
 
         left = self.lowestCommonAncestor(root.left, p, q)
         right = self.lowestCommonAncestor(root.right, p, q)
 
-        # p and q found in different branches
         if left and right:
             return root
 
-        # otherwise return whatever is not null
         return left if left else right
