@@ -8,6 +8,7 @@
 | [0015-3sum](https://github.com/rodoshi16/Leetcode/tree/master/0015-3sum) |
 | [0041-first-missing-positive](https://github.com/rodoshi16/Leetcode/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/rodoshi16/Leetcode/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/rodoshi16/Leetcode/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rodoshi16/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -221,6 +222,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/rodoshi16/Leetcode/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/rodoshi16/Leetcode/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/rodoshi16/Leetcode/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 ## Design
@@ -308,4 +310,8 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/rodoshi16/Leetcode/tree/master/0572-subtree-of-another-tree) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/rodoshi16/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
