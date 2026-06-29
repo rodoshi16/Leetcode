@@ -15,3 +15,6 @@ class Solution:
     
         backtrack(0, [])
         return res
+
+#time complexity: b**(h): (2^n)*n
+#space: 0(n*2^(n))
