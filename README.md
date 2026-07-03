@@ -115,6 +115,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/rodoshi16/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/rodoshi16/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
@@ -129,6 +130,7 @@
 | [0226-invert-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/rodoshi16/Leetcode/tree/master/0322-coin-change) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/rodoshi16/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
@@ -164,6 +166,7 @@
 | [0437-path-sum-iii](https://github.com/rodoshi16/Leetcode/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/rodoshi16/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -185,6 +188,7 @@
 | [0437-path-sum-iii](https://github.com/rodoshi16/Leetcode/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/rodoshi16/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Sorting
 |  |
 | ------- |
