@@ -80,6 +80,7 @@
 | [0020-valid-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0022-generate-parentheses) |
 | [0125-valid-palindrome](https://github.com/rodoshi16/Leetcode/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/rodoshi16/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/rodoshi16/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
@@ -232,6 +233,7 @@
 | [0046-permutations](https://github.com/rodoshi16/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/rodoshi16/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/rodoshi16/Leetcode/tree/master/0078-subsets) |
+| [0131-palindrome-partitioning](https://github.com/rodoshi16/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/rodoshi16/Leetcode/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 ## Design
@@ -285,6 +287,7 @@
 | [0022-generate-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/rodoshi16/Leetcode/tree/master/0070-climbing-stairs) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0131-palindrome-partitioning](https://github.com/rodoshi16/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/rodoshi16/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/rodoshi16/Leetcode/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
