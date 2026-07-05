@@ -1,5 +1,10 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
+        #aab -> a, a, b, aa, ab, aab
+        # "aab" -
+        # a -> a -> b
+        # aa -> b
+        # aab 
 
         def isp(s):
             left = 0 
@@ -19,13 +24,14 @@ class Solution:
                     right -= 1 
             
             return True 
-    
-        
+
         res = []
         def backtrack(k, current):
             if len(k) == 0:
                 res.append(current[:])
                 return
+
+
 
             for i in range(len(k)):
                 if isp(k[0:i+1]):
@@ -37,7 +43,5 @@ class Solution:
         backtrack(s, [])
         return res
 
-           
-            
 
-       
+        
