@@ -1,33 +1,30 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
 
-        row = len(grid)
-        col = len(grid[0])
-        island = 0 
         visited = set()
-        
+        count = 0 
+        n = len(grid)
+        m = len(grid[0])
+
         def dfs(i, j):
             visited.add((i, j))
-            directions = [(1,0), (-1, 0), (0, 1), (0, -1)]
-            for d in directions:
-                dr = i + d[0] 
-                dc = j + d[1]
-                if 0 <= dr < row and 0 <= dc <col and grid[dr][dc] == "1" and (dr,dc) not in visited:
-                    dfs(dr, dc)
-            return
-        
-        for i in range(row):
-            for j in range(col):
-                if grid[i][j] == "1" and (i,j) not in visited:
-                    island += 1 
+            dir = [[0, 1], [1, 0], [0, -1], [-1, 0]]
+
+            for d in dir:
+                a = i + d[0]
+                b = j + d[1]
+                if 0 <= a < n and 0 <= b < m and (a, b) not in visited and grid[a][b] == "1":
+                    dfs(a, b)
+
+        for i in range(n):
+            for j in range(m):
+                if (i, j) not in visited and grid[i][j] == "1":
                     dfs(i, j)
-        return island 
-
-                    
+                    count += 1
         
+        return count
+
                 
-
-
 
 
         
