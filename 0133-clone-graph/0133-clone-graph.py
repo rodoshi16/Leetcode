@@ -9,34 +9,24 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        #do dfs
-        #create a new graph and connect to rebuild 
-
         if node is None:
-            return node
+            return None
         
+        q = [node]
         d = {}
-    
-        def dfs(source):
-            if source in d:
-                return d[source]
-        
-            clone = Node(source.val)
-            d[source] = clone
-            
-            for nei in source.neighbors:
-                #take the old node and use that to go through nei 
-                #append that to the new guys 
-                clone.neighbors.append(dfs(nei))
-            
-            return clone 
-            
-    
-        return dfs(node)
-    
-        
-        
-       
 
-    
+        while q:
+            t = q.pop()
+            if t not in d:
+                d[t] = Node(t.val)
+            
+            for n in t.neighbors:
+                if n not in d:
+                    d[n] = Node(n.val)
+                    q.append(n)
+                
+                d[t].neighbors.append(d[n])
+        
+        return d[node]
+        
         
