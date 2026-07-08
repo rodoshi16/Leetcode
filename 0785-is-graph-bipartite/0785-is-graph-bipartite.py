@@ -9,7 +9,7 @@ class Solution:
             if i not in d:
                 s = [i]
                 d[i] = "red"
-
+                
             while s:
                 t = s.pop()
                 if t not in d:
@@ -28,13 +28,10 @@ class Solution:
                         s.append(n)
         
         return True
-                
+            
 
 
-        
-
-
-
+    
 
 
 
@@ -42,6 +39,9 @@ class Solution:
 
 
 
-        
 
-        
+
+
+    
+
+    
