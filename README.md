@@ -31,6 +31,7 @@
 | [0494-target-sum](https://github.com/rodoshi16/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/rodoshi16/Leetcode/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/rodoshi16/Leetcode/tree/master/0525-contiguous-array) |
+| [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
@@ -142,6 +143,7 @@
 | [0226-invert-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/rodoshi16/Leetcode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/rodoshi16/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0785-is-graph-bipartite](https://github.com/rodoshi16/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
@@ -153,6 +155,7 @@
 | [0130-surrounded-regions](https://github.com/rodoshi16/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/rodoshi16/Leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/rodoshi16/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
 ## Stack
 |  |
@@ -315,6 +318,7 @@
 | [0494-target-sum](https://github.com/rodoshi16/Leetcode/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/rodoshi16/Leetcode/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/rodoshi16/Leetcode/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 ## Math
 |  |
 | ------- |
