@@ -10,28 +10,31 @@ from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         #input: node
-        #output: clone
+        # 1-2
+        #deep vs shallow
 
-        # 1 -> 2 -> 4 -> 
+        #visited set
+        #Node(1) -> Node(2) -> Node(3) -> Node(4)
+        #d: mapping from old to new
+
+        d = {}
+        visited = set()
+        dummy = Node(0)
+
         if node is None:
             return None
 
-        d = {}
-        dummy = Node(0)
-        visited = set()
-
-        def dfs(node):
+        def dfs(node): 
             visited.add(node)
             if node not in d:
                 d[node] = Node(node.val)
-        
+            
             for nei in node.neighbors:
                 if nei not in visited:
                     dfs(nei)
                 d[node].neighbors.append(d[nei])
-            
+
             dummy.next = d[node]
-
+        
         dfs(node)
-
         return dummy.next
