@@ -134,6 +134,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/rodoshi16/Leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/rodoshi16/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/rodoshi16/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -157,6 +158,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/rodoshi16/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/rodoshi16/Leetcode/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/rodoshi16/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
@@ -264,6 +266,7 @@
 | [0210-course-schedule-ii](https://github.com/rodoshi16/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0547-number-of-provinces](https://github.com/rodoshi16/Leetcode/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/rodoshi16/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [1971-find-if-path-exists-in-graph](https://github.com/rodoshi16/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
@@ -297,6 +300,7 @@
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rodoshi16/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -395,4 +399,8 @@
 | ------- |
 | [0207-course-schedule](https://github.com/rodoshi16/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/rodoshi16/Leetcode/tree/master/0210-course-schedule-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
