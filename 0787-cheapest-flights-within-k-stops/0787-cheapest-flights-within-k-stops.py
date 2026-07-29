@@ -17,8 +17,8 @@ class Solution:
             #[1, 100]
             d[u].append([v, w])
         
-        seen = {}
         minheap = [(0, src, 0)]
+        seen = {}
 
         while minheap:
             price, city, stops = heapq.heappop(minheap)
@@ -30,10 +30,10 @@ class Solution:
                 if (node, stops+1) not in seen or seen[(node, stops+1)] > price + w:
                     heapq.heappush(minheap, ((price + w), node, stops+1))
                     seen[(node, stops+1)] = price + w
+                
 
-                if node == dst and stops <= k:
+                if node == dst:
                     cheapest = min(cheapest, price + w)
-        
         
         if cheapest == math.inf:
             return -1
