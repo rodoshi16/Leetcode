@@ -3,39 +3,43 @@ from collections import defaultdict
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
 
+        # start at node
+        # append neighbors (price, node, stops)
+        # if node == dst and stops -1 <= k 
+
         d = defaultdict(list)
+        cheapest = math.inf
 
         for u, v, w in flights:
-            d[u].append((v, w))
+            d[u].append([v, w])
+        
+        seen = {}
+        
 
-        minheap = [(0, src, 0)]  # cost, node, flights used
-        stops_seen = {}
+        minheap = [(0, src, 0)]
 
         while minheap:
-            cost, node, stops = heapq.heappop(minheap)
-
-            if node == dst:
-                return cost
+            price, city, stops = heapq.heappop(minheap)
 
             if stops > k:
                 continue
 
-            if node in stops_seen and stops_seen[node] <= stops:
-                continue
+            for node, w in d[city]:
+                if (node, stops+1) not in seen or seen[(node, stops+1)] > price + w:
+                    heapq.heappush(minheap, (price + w, node, stops+1))
+                
+                    seen[(node, stops+1)] = price + w
+                
+                if node == dst and stops <= k:
+                    cheapest = min(cheapest, price + w)
 
-            stops_seen[node] = stops
+                
 
-            for nei, price in d[node]:
-                heapq.heappush(
-                    minheap,
-                    (cost + price, nei, stops + 1)
-                )
-
-        return -1
+        if cheapest == math.inf:
+            return -1
+        else:
+            return cheapest
 
 
 
 
-
-        
-        
