@@ -136,6 +136,7 @@
 | [0572-subtree-of-another-tree](https://github.com/rodoshi16/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/rodoshi16/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/rodoshi16/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
@@ -160,6 +161,7 @@
 | [0547-number-of-provinces](https://github.com/rodoshi16/Leetcode/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/rodoshi16/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rodoshi16/Leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -268,6 +270,7 @@
 | [0547-number-of-provinces](https://github.com/rodoshi16/Leetcode/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/rodoshi16/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [1971-find-if-path-exists-in-graph](https://github.com/rodoshi16/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Backtracking
@@ -301,6 +304,7 @@
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rodoshi16/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -350,6 +354,7 @@
 | [0509-fibonacci-number](https://github.com/rodoshi16/Leetcode/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/rodoshi16/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Math
 |  |
 | ------- |
@@ -403,4 +408,5 @@
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
