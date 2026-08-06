@@ -35,6 +35,7 @@
 | [0525-contiguous-array](https://github.com/rodoshi16/Leetcode/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
@@ -61,6 +62,7 @@
 | [0525-contiguous-array](https://github.com/rodoshi16/Leetcode/tree/master/0525-contiguous-array) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 ## Union-Find
@@ -105,6 +107,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/rodoshi16/Leetcode/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 ## Sliding Window
 |  |
 | ------- |
@@ -239,6 +242,7 @@
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Linked List
 |  |
@@ -304,6 +308,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/rodoshi16/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rodoshi16/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -317,6 +322,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 ## Divide and Conquer
 |  |
