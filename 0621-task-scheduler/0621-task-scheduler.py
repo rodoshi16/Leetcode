@@ -1,23 +1,24 @@
 import heapq
-from collections import deque
+from collections import deque, Counter
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         #find freq and make a max heap
         # pop from heap and store waiting in queue
         # if q is ready - put that back in the heap 
 
-        d = {}
+        
         h = []
         q = deque([])
         t = 0
-        for task in tasks:
-            if task not in d:
-                d[task] = 1 
-            else:
-                d[task] += 1
+        count = Counter(tasks)
         
-        for key in d:
-            heapq.heappush(h, (-d[key], key))
+
+        
+        for task in count:
+            h.append((-count[task], task))
+        
+        heapq.heapify(h)
+            
        
         while h or q:
 
