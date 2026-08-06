@@ -18,18 +18,19 @@ class Solution:
         
         for key in d:
             heapq.heappush(h, (-d[key], key))
-        
+       
         while h or q:
+
             if q and q[0][1] <= t:
-                f, time, ele = q.popleft()
-                heapq.heappush(h, (f, ele))
-                
+                pop = q.popleft()
+                heapq.heappush(h, (pop[0], pop[2]))
+
             if h:
                 freq, key = heapq.heappop(h)
                 if freq + 1 < 0:
-                    q.append((freq+1, t+n+1, key))
+                    q.append((freq+1, t + n + 1, key))
                 
             
             t += 1
-        
+
         return t
