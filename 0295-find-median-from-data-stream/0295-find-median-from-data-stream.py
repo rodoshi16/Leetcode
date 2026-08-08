@@ -1,24 +1,32 @@
+import heapq
 class MedianFinder:
-    #median: middle val in list, even no middle
-    #mean of 2 middle vals
 
     def __init__(self):
-        self.l = []
+        self.minHeap = []
+        self.maxHeap = []
         
 
     def addNum(self, num: int) -> None:
-        self.l.append(num)
-        self.l.sort()
+
+        if not self.maxHeap or num <= -self.maxHeap[0]:
+            heapq.heappush(self.maxHeap, -num)
+        else:
+            heapq.heappush(self.minHeap, num)
+
+        if len(self.maxHeap) > len(self.minHeap) + 1:
+            num = -heapq.heappop(self.maxHeap)
+            heapq.heappush(self.minHeap, num)
+
+        elif len(self.minHeap) > len(self.maxHeap):
+            num = heapq.heappop(self.minHeap)
+            heapq.heappush(self.maxHeap, -num)
         
 
     def findMedian(self) -> float:
-        n = len(self.l)
-        i = n // 2
-        if n % 2 != 0:
-            return self.l[i]
-        else:
-            return (self.l[i] + self.l[i-1])/2
+        if len(self.maxHeap) > len(self.minHeap):
+            return -self.maxHeap[0]
 
+        return (-self.maxHeap[0] + self.minHeap[0]) / 2
         
 
 
