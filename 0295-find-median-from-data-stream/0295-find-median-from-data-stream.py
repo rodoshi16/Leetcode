@@ -1,33 +1,54 @@
 import heapq
 class MedianFinder:
+    #odd - middle val
+    #even - 2 middle val avg
+    #this assumes list is sorted
 
     def __init__(self):
-        self.minHeap = []
-        self.maxHeap = []
-        
+       self.min = []
+       self.max = []
 
     def addNum(self, num: int) -> None:
 
-        if not self.maxHeap or num <= -self.maxHeap[0]:
-            heapq.heappush(self.maxHeap, -num)
+        if not self.min or num <= -self.min[0]:
+            heapq.heappush(self.min, -num)
         else:
-            heapq.heappush(self.minHeap, num)
+            heapq.heappush(self.max, num)
 
-        if len(self.maxHeap) > len(self.minHeap) + 1:
-            num = -heapq.heappop(self.maxHeap)
-            heapq.heappush(self.minHeap, num)
+    
+        if len(self.min) > len(self.max) + 1:
+                t = -heapq.heappop(self.min)
+                heapq.heappush(self.max, t)
+        elif len(self.max) > len(self.min) + 1:
+                t = heapq.heappop(self.max)
+                heapq.heappush(self.min, -t)
 
-        elif len(self.minHeap) > len(self.maxHeap):
-            num = heapq.heappop(self.minHeap)
-            heapq.heappush(self.maxHeap, -num)
-        
+        # elif num > -self.min[0] and num < self.max[0]:
+        #     if len(self.min) > len(self.max):
+        #         heapq.heappush(self.max, num)
+        #     else:
+        #         heapq.heappush(self.min, -num)
+
+
 
     def findMedian(self) -> float:
-        if len(self.maxHeap) > len(self.minHeap):
-            return -self.maxHeap[0]
+        #even, odd
+        n = len(self.min) + len(self.max)
+        if n % 2 != 0:
+            if len(self.min) > len(self.max):
+                return -self.min[0]
+            else:
+                return self.max[0]
+        else:
+            a = -self.min[0]
+            b = self.max[0]
+            return (a + b)/2
 
-        return (-self.maxHeap[0] + self.minHeap[0]) / 2
+
+
+
         
+       
 
 
 # Your MedianFinder object will be instantiated and called as such:
