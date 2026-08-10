@@ -53,6 +53,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/rodoshi16/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/rodoshi16/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/rodoshi16/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rodoshi16/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/rodoshi16/Leetcode/tree/master/0202-happy-number) |
@@ -257,6 +258,7 @@
 | [0141-linked-list-cycle](https://github.com/rodoshi16/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/rodoshi16/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rodoshi16/Leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rodoshi16/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/rodoshi16/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/rodoshi16/Leetcode/tree/master/0876-middle-of-the-linked-list) |
@@ -295,6 +297,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/rodoshi16/Leetcode/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/rodoshi16/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
@@ -434,4 +437,8 @@
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
