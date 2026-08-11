@@ -40,6 +40,7 @@
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Hash Table
 |  |
 | ------- |
@@ -190,6 +191,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/rodoshi16/Leetcode/tree/master/0155-min-stack) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Tree
 |  |
 | ------- |
@@ -455,4 +457,8 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/rodoshi16/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 <!---LeetCode Topics End-->
