@@ -4,6 +4,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rodoshi16/Leetcode/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/rodoshi16/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/rodoshi16/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/rodoshi16/Leetcode/tree/master/0015-3sum) |
 | [0041-first-missing-positive](https://github.com/rodoshi16/Leetcode/tree/master/0041-first-missing-positive) |
@@ -334,6 +335,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/rodoshi16/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rodoshi16/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
@@ -388,6 +390,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/rodoshi16/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 ## Binary Search Tree
 |  |
