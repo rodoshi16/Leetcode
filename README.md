@@ -24,6 +24,7 @@
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/rodoshi16/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/rodoshi16/Leetcode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/rodoshi16/Leetcode/tree/master/0322-coin-change) |
@@ -90,6 +91,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/rodoshi16/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/rodoshi16/Leetcode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/rodoshi16/Leetcode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/rodoshi16/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0876-middle-of-the-linked-list](https://github.com/rodoshi16/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## String
@@ -396,6 +398,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rodoshi16/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 ## Binary Search Tree
 |  |
@@ -412,6 +415,7 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/rodoshi16/Leetcode/tree/master/0078-subsets) |
+| [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Data Stream
 |  |
 | ------- |
@@ -461,4 +465,12 @@
 |  |
 | ------- |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
