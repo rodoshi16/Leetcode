@@ -61,6 +61,7 @@
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/rodoshi16/Leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/rodoshi16/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0525-contiguous-array](https://github.com/rodoshi16/Leetcode/tree/master/0525-contiguous-array) |
@@ -105,6 +106,7 @@
 | [0127-word-ladder](https://github.com/rodoshi16/Leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/rodoshi16/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/rodoshi16/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -305,6 +307,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/rodoshi16/Leetcode/tree/master/0155-min-stack) |
+| [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/rodoshi16/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
@@ -473,4 +476,8 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
