@@ -38,6 +38,7 @@
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
+| [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
@@ -269,6 +270,7 @@
 | [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rodoshi16/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/rodoshi16/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
 | [0876-middle-of-the-linked-list](https://github.com/rodoshi16/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
 |  |
@@ -311,6 +313,7 @@
 | [0295-find-median-from-data-stream](https://github.com/rodoshi16/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
+| [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rodoshi16/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Hash Function
 |  |
@@ -480,4 +483,8 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+## Queue
+|  |
+| ------- |
+| [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
 <!---LeetCode Topics End-->
