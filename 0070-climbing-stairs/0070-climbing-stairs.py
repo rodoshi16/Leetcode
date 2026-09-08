@@ -1,17 +1,20 @@
 class Solution: 
     def climbStairs(self, n: int) -> int:
 
-        d = {0: 0, 1: 1, 2: 2}
+        prev = 1
+        curr = 2 
 
-        def recurse(n):
-            if n in d:
-                return d[n]
-            else:
-                val = recurse(n-1) + recurse(n-2)
-                d[n] = val
-                return val
-        
-        return recurse(n)
+        if n == 1:
+            return 1
+        elif n == 2:
+            return 2 
+        else:
+            for i in range(3, n+1):
+                val = curr + prev
+                prev = curr
+                curr = val
 
+            return curr
+            
 
     
