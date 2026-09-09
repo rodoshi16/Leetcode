@@ -42,6 +42,7 @@
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
+| [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Hash Table
 |  |
@@ -111,6 +112,7 @@
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
+| [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Greedy
 |  |
 | ------- |
@@ -255,6 +257,7 @@
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Linked List
 |  |
 | ------- |
@@ -333,6 +336,7 @@
 | [0743-network-delay-time](https://github.com/rodoshi16/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -406,6 +410,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/rodoshi16/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0287-find-the-duplicate-number](https://github.com/rodoshi16/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -483,6 +488,7 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Queue
 |  |
 | ------- |
