@@ -1,40 +1,44 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        #time: O(v+e) each course and each edge is explored once
-        #space: 0(v+e) for the dict and 0(v) + 0(v) for the space
- 
-        d = defaultdict(list)
-        visited = set()
-        visiting = set()
 
-        for i in range(numCourses):
-            d[i] = []
-        for edge in prerequisites:
-            d[edge[0]].append(edge[1])
+        #build adj list
+        # run dfs
+        # detect cycle on the path 
+
+        adj = {}
+        for pre in prerequisites:
+            if pre[0] not in adj:
+                adj[pre[0]] = [pre[1]]
+            else:
+                adj[pre[0]].append(pre[1])
         
+        visited = set()
+        path = set()
+
         def dfs(node):
-            #cycle
-            if node in visiting:
+            if node in path:
                 return False
         
             if node in visited:
-                return True
+                return True 
             
-            visiting.add(node)
-            for nei in d[node]:
-                if nei not in visited:
-                    if not dfs(nei):
-                        return False
+            path.add(node)
+
+            for nei in adj.get(node, []):
+                if not dfs(nei):
+                    return False
             
+            path.remove(node)
             visited.add(node)
-            visiting.remove(node)
-            return True
-
-
-        for key in d:
-            if key not in visited:
-                if not dfs(key):
-                    return False 
+            return True 
+    
+        for course in range(numCourses):
+            if not dfs(course):
+                return False
         
         return True
-            
+
+      
+        
+
+
