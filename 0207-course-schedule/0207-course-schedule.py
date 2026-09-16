@@ -22,10 +22,12 @@ class Solution:
             
             path.add(node)
             for nei in adj.get(node, []):
-                if nei in path:
+                if not dfs(nei):
                     return False
-                if nei not in visited:
-                    dfs(nei)
+                # if nei in path:
+                #     return False
+                # if nei not in visited:
+                #     dfs(nei)
 
             path.remove(node)
             visited.add(node)
