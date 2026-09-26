@@ -394,6 +394,7 @@
 | [0518-coin-change-ii](https://github.com/rodoshi16/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1155-number-of-dice-rolls-with-target-sum](https://github.com/rodoshi16/Leetcode/tree/master/1155-number-of-dice-rolls-with-target-sum) |
 ## Math
 |  |
 | ------- |
