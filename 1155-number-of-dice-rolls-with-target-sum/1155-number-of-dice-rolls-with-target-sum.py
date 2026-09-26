@@ -7,12 +7,12 @@ class Solution:
         def recurse(n, target):
             count = 0 
 
-            if target <  0:
-                return 0
+            if target < 0 or n < 0:
+                return 0 
+            
             elif n == 0 and target == 0:
-                return 1
-            elif n == 0 and target != 0:
-                return 0
+                return 1 
+            
             elif (n, target) in memo:
                 return memo[(n, target)]
 
@@ -22,4 +22,5 @@ class Solution:
             memo[(n, target)] = count
             return count
     
+        
         return recurse(n, target) % ((10**9)+7)
