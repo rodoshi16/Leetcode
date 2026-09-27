@@ -1,46 +1,43 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        visited = []
-        visiting = set()
+         #return valid course ordering
+         # 0 -> 1 -> 2 -> 3
+        
+        #dict -> stores pre of each class
+        #for loop to check visited
+        # dfs func
+
         d = {}
-
-        #time: O(v+e) each course and each edge is explored once
-        #space: 0(v+e) for the dict and 0(v) + 0(v) for the space
-
-        for i in range(numCourses):
-            d[i] = []
-
-        for edge in prerequisites:
-            d[edge[0]].append(edge[1])
+        visited = set()
+        path = set()
+        ans = []
+        for p in prerequisites:
+            if p[0] not in d:
+                d[p[0]] = [p[1]]
+            else:
+                 d[p[0]].append(p[1])
         
-        def dfs(node):
-            if node in visiting:
-                return False
-        
-            if node in visited:
+        def dfs(c):
+            if c in visited:
                 return True
             
-            visiting.add(node)
-            for nei in d[node]:
-                if nei not in visited:
-                    if not dfs(nei):
+            if c in path:
+                return False
+        
+            path.add(c)
+            if c in d:
+                for ele in d[c]:
+                    if not dfs(ele):
                         return False
-            
-            visited.append(node)
-            visiting.remove(node)
+                
+            visited.add(c)
+            path.remove(c)
+            ans.append(c)
             return True
-
-
-        for key in d:
-            if key not in visited:
-                if not dfs(key):
-                    return []
         
-        return visited 
-        
-        
+        for i in range(numCourses):
+            if not dfs(i):
+                return []
             
-
-        
-        
-        
+        return ans
+    
