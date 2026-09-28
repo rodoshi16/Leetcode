@@ -1,8 +1,5 @@
 class Solution:
     def sortItems(self, n: int, m: int, group: list[int], beforeItems: list[list[int]]) -> list[int]:
-       #when an ele comes in -> process the group first
-       # then move on 
-        # every ungrouped item (-1) gets its own group
         for i in range(n):
             if group[i] == -1:
                 group[i] = m
@@ -66,3 +63,7 @@ class Solution:
             res.extend(items)
 
         return res
+        
+        
+
+
