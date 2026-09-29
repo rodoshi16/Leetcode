@@ -4,13 +4,13 @@ class Solution:
         # choices: 1 step, 2 steps 
     
         n = len(cost)
-        dp = [0] * (n+1)
+        prev = 0
+        curr = 0
     
         for i in range(2, n+1):
-            dp[i] = min(dp[i-1]+ cost[i-1], dp[i-2]+ cost[i-2])
-
+            curr, prev = min(curr + cost[i-1], prev + cost[i-2]), curr
     
-        return dp[n]
+        return curr
 
 
         
