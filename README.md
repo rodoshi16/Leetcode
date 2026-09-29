@@ -39,6 +39,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
+| [0746-min-cost-climbing-stairs](https://github.com/rodoshi16/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
@@ -393,6 +394,7 @@
 | [0509-fibonacci-number](https://github.com/rodoshi16/Leetcode/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/rodoshi16/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
+| [0746-min-cost-climbing-stairs](https://github.com/rodoshi16/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/rodoshi16/Leetcode/tree/master/1155-number-of-dice-rolls-with-target-sum) |
 ## Math
