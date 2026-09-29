@@ -4,17 +4,13 @@ class Solution:
         # choices: 1 step, 2 steps 
     
         n = len(cost)
-        memo = {0: 0, 1:0}
+        dp = [0] * (n+1)
+    
+        for i in range(2, n+1):
+            dp[i] = min(dp[i-1]+ cost[i-1], dp[i-2]+ cost[i-2])
 
-        def dp(i):
-            if i in memo:
-                return memo[i]
-
-            else:
-                memo[i] = min(dp(i-1) + cost[i-1], dp(i-2) + cost[i-2]) 
-                return memo[i]
-        
-        return dp(n)
+    
+        return dp[n]
 
 
         
