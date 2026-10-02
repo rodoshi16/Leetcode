@@ -1,20 +1,20 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        #choices: rob ith house or dont
+        # multiple branches of starting points
 
-        if len(nums) == 1:
+        n = len(nums)
+        dp = [0]* n
+
+        if n == 1:
             return nums[0]
 
-        dp = [0] * len(nums)
-        n = len(nums)
-        m = max(nums[0], nums[1])
+
         dp[0] = nums[0]
-        dp[1] = m
+        dp[1] = max(nums[0], nums[1])
 
         for i in range(2, n):
             dp[i] = max(dp[i-1], dp[i-2]+ nums[i])
-            if dp[i] > m:
-                m = dp[i]
+        return dp[n-1]
         
-        return m
-        
-
+        return rob(nums)
