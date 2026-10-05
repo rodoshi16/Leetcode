@@ -34,7 +34,7 @@ class Solution:
             if 10 <= int(two) <= 26:
                 if s[2:] not in memo:
                     memo[s[2:]] = ways(s[2:])
-                num += ways(s[2:])
+                num += memo[s[2:]]
              
             return num
 
