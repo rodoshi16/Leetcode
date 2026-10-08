@@ -45,6 +45,7 @@
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
 | [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
+| [3484-design-spreadsheet](https://github.com/rodoshi16/Leetcode/tree/master/3484-design-spreadsheet) |
 ## Hash Table
 |  |
 | ------- |
@@ -73,6 +74,7 @@
 | [0621-task-scheduler](https://github.com/rodoshi16/Leetcode/tree/master/0621-task-scheduler) |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
+| [3484-design-spreadsheet](https://github.com/rodoshi16/Leetcode/tree/master/3484-design-spreadsheet) |
 ## Union-Find
 |  |
 | ------- |
@@ -115,6 +117,7 @@
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [1189-maximum-number-of-balloons](https://github.com/rodoshi16/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
+| [3484-design-spreadsheet](https://github.com/rodoshi16/Leetcode/tree/master/3484-design-spreadsheet) |
 ## Greedy
 |  |
 | ------- |
@@ -193,6 +196,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/rodoshi16/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
+| [3484-design-spreadsheet](https://github.com/rodoshi16/Leetcode/tree/master/3484-design-spreadsheet) |
 ## Stack
 |  |
 | ------- |
@@ -323,6 +327,7 @@
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rodoshi16/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [3484-design-spreadsheet](https://github.com/rodoshi16/Leetcode/tree/master/3484-design-spreadsheet) |
 ## Hash Function
 |  |
 | ------- |
