@@ -2,36 +2,14 @@ class Spreadsheet:
     #26 col, n rows
       
     def __init__(self, rows: int):
-        self.d = {
-            'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5,
-            'G': 6, 'H': 7, 'I': 8, 'J': 9, 'K': 10, 'L': 11,
-            'M': 12, 'N': 13, 'O': 14, 'P': 15, 'Q': 16, 'R': 17,
-            'S': 18, 'T': 19, 'U': 20, 'V': 21, 'W': 22, 'X': 23,
-            'Y': 24, 'Z': 25
-        }
-
-        self.s = []
-        for i in range(rows):
-            self.s.append([0]*26)
-
-
+        self.s = collections.defaultdict(int)
+      
     def setCell(self, cell: str, value: int) -> None:
-        #A1, B12
-        col = cell[0]
-        row = int(cell[1:]) - 1
-
-
-        if row <= len(self.s):
-            self.s[row][self.d[col]] = value
-
+        self.s[cell] = value
+        
     def resetCell(self, cell: str) -> None:
-        col = cell[0]
-        row = int(cell[1:]) - 1
-
-
-        if row <= len(self.s):
-            self.s[row][self.d[col]] = 0
-
+        self.s[cell] = 0
+    
     
     def getValue(self, formula: str) -> int:
         #=5+7 , =A2+b2
@@ -43,11 +21,8 @@ class Spreadsheet:
             if op.isdigit():
                 return int(op)
             
-            col = op[0]
-            row = int(op[1:]) - 1
-        
-            if row <= len(self.s):
-                return self.s[row][self.d[col]]
+            
+            return self.s[op]
         
         return operand(op1) + operand(op2)
 
