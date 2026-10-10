@@ -28,8 +28,6 @@ class Solution:
                 l -= 1
                 r += 1
             
-            l = i - 1
-            r = i + 1
 
         return m
 
