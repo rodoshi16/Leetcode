@@ -1,8 +1,7 @@
 class Solution:
     def canSeePersonsCount(self, heights: List[int]) -> List[int]:
-        #find the first largest
-        # all the numbers between them
-        # if no numbers betwee, only see the right 
+        #each element will be pushed and popped only once
+        # 
 
         res = [0] * len(heights)
         if not heights:
