@@ -397,6 +397,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rodoshi16/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0022-generate-parentheses) |
+| [0062-unique-paths](https://github.com/rodoshi16/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/rodoshi16/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/rodoshi16/Leetcode/tree/master/0091-decode-ways) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -420,6 +421,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/rodoshi16/Leetcode/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/rodoshi16/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/rodoshi16/Leetcode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/rodoshi16/Leetcode/tree/master/0202-happy-number) |
 | [0509-fibonacci-number](https://github.com/rodoshi16/Leetcode/tree/master/0509-fibonacci-number) |
@@ -538,4 +540,8 @@
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/rodoshi16/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
