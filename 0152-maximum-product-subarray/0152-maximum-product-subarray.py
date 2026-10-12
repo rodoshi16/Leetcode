@@ -1,15 +1,36 @@
 class Solution:
     def maxProduct(self, nums: list[int]) -> int:
-        res = max(nums)
-        curMin, curMax = 1, 1
+        #input: nums
+        # out: int 
 
-        for n in nums:
-            if n == 0:
-                curMin, curMax = 1,1
-                continue
-            tmp = curMax * n
-            curMax = max(n *curMax, n * curMin, n)
-            curMin = min(tmp, n * curMin, n)
-            res = max(res, curMax)
-        
-        return res
+        # pos: sum all
+        # [-1, -2, -3, -4]
+        # [2, 3, -2, 4]
+        # dp[i] = max(dp[i-1] * nums[i], nums[i])
+        # [2, -4, 3, -2]
+
+        # -ve numbers can make 
+
+        n = len(nums)
+        max_a = [0] * n 
+        min_a = [0] * n 
+        max_a[0] = nums[0]
+        min_a[0] = nums[0]
+
+        for i in range(1, len(nums)):
+            max_a[i] = max(nums[i], max_a[i-1]*nums[i], min_a[i-1]*nums[i])
+            min_a[i] = min(nums[i], max_a[i-1]*nums[i], min_a[i-1]*nums[i])
+    
+        return max(max_a)
+
+
+
+
+
+
+
+
+
+
+
+
