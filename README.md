@@ -16,6 +16,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/rodoshi16/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/rodoshi16/Leetcode/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/rodoshi16/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/rodoshi16/Leetcode/tree/master/0198-house-robber) |
@@ -59,6 +60,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/rodoshi16/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/rodoshi16/Leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/rodoshi16/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/rodoshi16/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/rodoshi16/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
@@ -115,6 +117,7 @@
 | [0125-valid-palindrome](https://github.com/rodoshi16/Leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/rodoshi16/Leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/rodoshi16/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/rodoshi16/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
@@ -398,6 +401,7 @@
 | [0091-decode-ways](https://github.com/rodoshi16/Leetcode/tree/master/0091-decode-ways) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rodoshi16/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0131-palindrome-partitioning](https://github.com/rodoshi16/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/rodoshi16/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/rodoshi16/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/rodoshi16/Leetcode/tree/master/0213-house-robber-ii) |
@@ -424,6 +428,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/rodoshi16/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/rodoshi16/Leetcode/tree/master/0509-fibonacci-number) |
 ## Binary Search
 |  |
@@ -509,6 +514,7 @@
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Queue
@@ -524,4 +530,8 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rodoshi16/Leetcode/tree/master/0005-longest-palindromic-substring) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
