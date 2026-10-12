@@ -534,4 +534,8 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/rodoshi16/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
