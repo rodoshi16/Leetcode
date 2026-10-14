@@ -15,23 +15,23 @@ class Solution:
 
         # dp[i] = min cost of house at index i, remember the color or the index
 
-        dp = []
+       
+        dp = costs[0][:]
         n = len(costs)
-        for i in range(n):
-            dp.append([0] * 3)
-        
-        dp[0] = costs[0][:]
+
 
         for i in range(1, n):
+            lst = []
             for j in range(3):
                 prev_min = math.inf
                 for k in range(3):
                     if k != j:
-                        prev_min = min(prev_min, dp[i-1][k])
-
-                dp[i][j] = costs[i][j] + prev_min
+                        prev_min = min(prev_min, dp[k])
+            
+                lst.append(costs[i][j] + prev_min)
+            dp = lst
         
-        return min(dp[n-1])
+        return min(dp)
 
        
 
