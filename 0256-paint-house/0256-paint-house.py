@@ -24,24 +24,22 @@ class Solution:
     # decisions are not indepedent
     # cost, color 
 
-        dp = []
         n = len(costs)
-
-        for i in range(n):
-            dp.append([0]* 3)
         
-        dp[0] = costs[0][:]
+        dp = costs[0][:]
 
         for i in range(1, n):
+            lst = []
             for j in range(3):
                 prev_min = math.inf
                 for k in range(3):
                     if j != k:
-                        prev_min = min(prev_min, dp[i-1][k])
+                        prev_min = min(prev_min, dp[k])
+                
+                lst.append(costs[i][j] + prev_min)
+            dp = lst
 
-                dp[i][j] = costs[i][j] + prev_min
-
-        return min(dp[n-1])
+        return min(dp)
 
 
         
