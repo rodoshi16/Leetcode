@@ -1,3 +1,4 @@
+import math
 class Solution:
     def minCost(self, costs: list[list[int]]) -> int:
         #3 choices: red, blue, green
@@ -16,20 +17,23 @@ class Solution:
 
         dp = []
         n = len(costs)
-        for i in range(len(costs)):
+        for i in range(n):
             dp.append([0] * 3)
+        
         dp[0] = costs[0][:]
-        
-        
-        
-        for i in range(1, len(costs)):
+
+        for i in range(1, n):
             for j in range(3):
-                prev_min = min(dp[i-1][k] for k in range(3) if  k!= j)
-            
-                dp[i][j] = costs[i][j] + prev_min 
-            
+                prev_min = math.inf
+                for k in range(3):
+                    if k != j:
+                        prev_min = min(prev_min, dp[i-1][k])
+
+                dp[i][j] = costs[i][j] + prev_min
+        
         return min(dp[n-1])
 
+       
 
 
 
