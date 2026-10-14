@@ -25,27 +25,16 @@ class Solution:
     # cost, color 
 
         n = len(costs)
-        
         dp = costs[0][:]
 
         for i in range(1, n):
-            lst = []
-            for j in range(3):
-                prev_min = math.inf
-                for k in range(3):
-                    if j != k:
-                        prev_min = min(prev_min, dp[k])
-                
-                lst.append(costs[i][j] + prev_min)
-            dp = lst
+            dp0 = costs[i][0] + min(dp[1],dp[2])
+            dp1 = costs[i][1] + min(dp[0], dp[2])
+            dp2 = costs[i][2] + min(dp[1], dp[0])
 
-        return min(dp)
-
-
+            dp = [dp0, dp1, dp2]
         
-
-
-
+        return min(dp)
 
 
 
