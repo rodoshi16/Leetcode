@@ -20,7 +20,10 @@ class Solution:
         def dp(state, i):
             #max profit
             if i == len(prices):
-                return 0 
+                if state == 0:
+                    return 0 
+                else:
+                    return float('-inf')
 
             if (state, i) in d:
                 return d[(state, i)]
