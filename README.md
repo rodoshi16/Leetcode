@@ -18,6 +18,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/rodoshi16/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/rodoshi16/Leetcode/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/rodoshi16/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/rodoshi16/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/rodoshi16/Leetcode/tree/master/0198-house-robber) |
@@ -217,6 +218,7 @@
 | [0143-reorder-list](https://github.com/rodoshi16/Leetcode/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rodoshi16/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/rodoshi16/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/rodoshi16/Leetcode/tree/master/0155-min-stack) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Tree
@@ -434,6 +436,7 @@
 | [0050-powx-n](https://github.com/rodoshi16/Leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/rodoshi16/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/rodoshi16/Leetcode/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/rodoshi16/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/rodoshi16/Leetcode/tree/master/0202-happy-number) |
 | [0509-fibonacci-number](https://github.com/rodoshi16/Leetcode/tree/master/0509-fibonacci-number) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
