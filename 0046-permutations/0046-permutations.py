@@ -3,22 +3,43 @@ class Solution:
        #array of nums of distinct integers, return all possible permutations
 
         res = []
-
         def backtrack(current):
-
             if len(current) == len(nums):
                 res.append(current[:])
                 return 
-
-
+            
             for num in nums:
                 if num not in current:
                     current.append(num)
                     backtrack(current)
                     current.pop()
-
         backtrack([])
         return res
+
+       #time complexity: 0(n.n!)
+       #Space: 0(n)
+
+
+
+
+
+        # res = []
+
+        # def backtrack(current):
+
+        #     if len(current) == len(nums):
+        #         res.append(current[:])
+        #         return 
+
+
+        #     for num in nums:
+        #         if num not in current:
+        #             current.append(num)
+        #             backtrack(current)
+        #             current.pop()
+
+        # backtrack([])
+        # return res
     
 
        
