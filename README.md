@@ -24,6 +24,7 @@
 | [0169-majority-element](https://github.com/rodoshi16/Leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/rodoshi16/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/rodoshi16/Leetcode/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/rodoshi16/Leetcode/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/rodoshi16/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rodoshi16/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
@@ -126,6 +127,7 @@
 | [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/rodoshi16/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/rodoshi16/Leetcode/tree/master/0212-word-search-ii) |
 | [0332-reconstruct-itinerary](https://github.com/rodoshi16/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0647-palindromic-substrings](https://github.com/rodoshi16/Leetcode/tree/master/0647-palindromic-substrings) |
@@ -208,6 +210,7 @@
 | ------- |
 | [0130-surrounded-regions](https://github.com/rodoshi16/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/rodoshi16/Leetcode/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/rodoshi16/Leetcode/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/rodoshi16/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/rodoshi16/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
@@ -333,6 +336,7 @@
 | [0051-n-queens](https://github.com/rodoshi16/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/rodoshi16/Leetcode/tree/master/0078-subsets) |
 | [0131-palindrome-partitioning](https://github.com/rodoshi16/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/rodoshi16/Leetcode/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/rodoshi16/Leetcode/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/rodoshi16/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 ## Design
@@ -537,6 +541,7 @@
 | ------- |
 | [0139-word-break](https://github.com/rodoshi16/Leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/rodoshi16/Leetcode/tree/master/0212-word-search-ii) |
 | [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Queue
 |  |
