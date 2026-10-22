@@ -45,7 +45,7 @@ class Solution:
                 r = d[0] + a
                 c = d[1] + b 
 
-                if 0 <= r < n and 0 <= c < m and (r, c) not in visited:
+                if 0 <= r < n and 0 <= c < m and (r, c) not in visited and board[r][c] in node.children:
                     dfs(r, c, node, visited)
             
             visited.remove((a, b))
