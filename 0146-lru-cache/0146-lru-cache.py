@@ -1,93 +1,100 @@
-class Node:
+# cache: {key: Node}
+#least to most recent
+# [A-B-C]
 
-    def __init__(self, key, val: int):
-        self.val = val
-        self.prev = None
-        self.next = None
+# key is exists - update, remove from old pos, add to tail
+# key doesn't exist - 1. if capa, add to end 2.if no, evict and then add 
+
+
+class Node:
+    def __init__(self, key, value):
         self.key = key
-    
+        self.value = value
+        self.prev = None 
+        self.next = None
 
 class DoublyLinkedList:
-
     def __init__(self):
         self.head = None
         self.tail = None
+    
+    def remove(self, node: Node):
+        # del head
+        # del tail
+        # one node
+
+        if node.prev:
+            node.prev.next = node.next
+        else:
+            self.head = node.next
+        
+        if node.next:
+            node.next.prev = node.prev
+        else:
+            self.tail = node.prev
+        
+        if node.prev is None and node.next is None:
+            self.head = None
+            self.tail = None
+
+    
+    def append(self, node: Node):
+        #one node
+        # prev exists
+
+        if self.tail is None:
+            self.tail = node
+            self.head = node
+        else:
+            self.tail.next, node.prev = node, self.tail
+            self.tail = node
+        
+        node.next = None
+
+
 
 class LRUCache:
 
     def __init__(self, capacity: int):
         if capacity > 0:
             self.capacity = capacity
-        
         self.cache = {}
-        self.recent = {}
-        self.linked = DoublyLinkedList()
-
+        self.lru = DoublyLinkedList()
+    
     def get(self, key: int) -> int:
         if key not in self.cache:
-            return -1
+            return -1 
         
         node = self.cache[key]
-        
-        if node != self.linked.tail:
-
-            if node == self.linked.head:
-                self.linked.head = node.next
-                self.linked.head.prev = None
-            else:
-                node.prev.next, node.next.prev = node.next, node.prev
-
-            self.linked.tail.next, node.prev  = node, self.linked.tail
-            self.linked.tail = node
+        self.lru.remove(node)
+        self.lru.append(node)
+        return node.value
 
         
-        return self.cache[key].val
-        
+    
     def put(self, key: int, value: int) -> None:
         if key in self.cache:
             node = self.cache[key]
-            node.val = value
+            node.value = value
 
-            if node != self.linked.tail:
-
-                if node == self.linked.head:
-                    self.linked.head = node.next
-                    self.linked.head.prev = None
-                else:
-                    node.prev.next = node.next
-                    node.next.prev = node.prev
-
-                node.prev = self.linked.tail
-                node.next = None
-                self.linked.tail.next = node
-                self.linked.tail = node
-
-            return
-
-        node = Node(key, value)
-        self.cache[key] = node
-
-        if self.linked.head is None:
-            self.linked.head = node
-            self.linked.tail = node
+            self.lru.remove(node)
+            self.lru.append(node)
         else:
-            node.prev = self.linked.tail
-            self.linked.tail.next = node
-            self.linked.tail = node
-
-        if len(self.cache) > self.capacity:
-            old = self.linked.head
-
-            if old.next is None:
-                self.linked.head = None
-                self.linked.tail = None
+            node = Node(key, value)
+            if len(self.cache) < self.capacity:
+                self.cache[key] = node
+                self.lru.append(node)
             else:
-                self.linked.head = old.next
-                self.linked.head.prev = None
+                lru = self.lru.head
+                del self.cache[lru.key]
 
-            del self.cache[old.key]
+                self.lru.remove(lru)
 
+                self.cache[key] = node
+                self.lru.append(node)
 
+        
+              
 # Your LFUCache object will be instantiated and called as such:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
