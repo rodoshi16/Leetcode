@@ -77,6 +77,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/rodoshi16/Leetcode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/rodoshi16/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0460-lfu-cache](https://github.com/rodoshi16/Leetcode/tree/master/0460-lfu-cache) |
 | [0525-contiguous-array](https://github.com/rodoshi16/Leetcode/tree/master/0525-contiguous-array) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0560-subarray-sum-equals-k](https://github.com/rodoshi16/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -301,6 +302,7 @@
 | [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rodoshi16/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/rodoshi16/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0460-lfu-cache](https://github.com/rodoshi16/Leetcode/tree/master/0460-lfu-cache) |
 | [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
 | [0876-middle-of-the-linked-list](https://github.com/rodoshi16/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
@@ -347,6 +349,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/rodoshi16/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/rodoshi16/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/rodoshi16/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0460-lfu-cache](https://github.com/rodoshi16/Leetcode/tree/master/0460-lfu-cache) |
 | [0535-encode-and-decode-tinyurl](https://github.com/rodoshi16/Leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0622-design-circular-queue](https://github.com/rodoshi16/Leetcode/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rodoshi16/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -515,6 +518,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/rodoshi16/Leetcode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/rodoshi16/Leetcode/tree/master/0460-lfu-cache) |
 ## Merge Sort
 |  |
 | ------- |
