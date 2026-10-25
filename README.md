@@ -52,6 +52,7 @@
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/rodoshi16/Leetcode/tree/master/0994-rotting-oranges) |
 | [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
+| [1801-number-of-orders-in-the-backlog](https://github.com/rodoshi16/Leetcode/tree/master/1801-number-of-orders-in-the-backlog) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rodoshi16/Leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [3484-design-spreadsheet](https://github.com/rodoshi16/Leetcode/tree/master/3484-design-spreadsheet) |
 ## Hash Table
@@ -373,6 +374,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/rodoshi16/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/rodoshi16/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1268-search-suggestions-system](https://github.com/rodoshi16/Leetcode/tree/master/1268-search-suggestions-system) |
+| [1801-number-of-orders-in-the-backlog](https://github.com/rodoshi16/Leetcode/tree/master/1801-number-of-orders-in-the-backlog) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -403,6 +405,7 @@
 |  |
 | ------- |
 | [0874-walking-robot-simulation](https://github.com/rodoshi16/Leetcode/tree/master/0874-walking-robot-simulation) |
+| [1801-number-of-orders-in-the-backlog](https://github.com/rodoshi16/Leetcode/tree/master/1801-number-of-orders-in-the-backlog) |
 ## Prefix Sum
 |  |
 | ------- |
