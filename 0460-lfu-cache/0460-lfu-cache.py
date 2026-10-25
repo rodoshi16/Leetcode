@@ -1,3 +1,12 @@
+#lru
+# A-B-C
+# 3 2 7
+# {A: 3, B: 3, C: 3}
+# {2: [D], 3: [B, C, A]}
+
+#Doubly ll
+# Node
+
 class Node:
     def __init__(self, key, value):
         self.key = key
@@ -12,6 +21,10 @@ class DoublyLinkedList:
         self.tail = None
     
     def remove(self, node: Node):
+        #head
+        # tail
+        # middle
+
         if node.prev:
             node.prev.next = node.next
         else:
@@ -26,114 +39,110 @@ class DoublyLinkedList:
             self.head = None
             self.tail = None
         
-        node.prev = None    
+        node.prev = None
         node.next = None
     
     def append(self, node: Node):
+        #tail
+        # no tail
+
         if self.tail is None:
-            self.head, self.tail = node, node
+            self.tail = node
+            self.head = node
         
         else:
+
             self.tail.next, node.prev = node, self.tail
             self.tail = node
-        
-        node.next = None
+            node.next = None
 
 class LFUCache:
     def __init__(self, capacity: int):
+        #cache, freq hashmap
+        #self.lfu var
+
         self.capacity = capacity
-        
         self.cache = {}
-        self.freq = {1: DoublyLinkedList()}
         self.lfu = 1 
-     
+        self.freq = {1: DoublyLinkedList()}
+
+
 
     def get(self, key: int) -> int:
+        #key exists - remove from last freq, add to new freq
+        # key doesnt - return -1
         if key not in self.cache:
             return -1 
         
         node = self.cache[key]
         self.freq[node.counter].remove(node)
-        
         if self.freq[node.counter].head is None:
             del self.freq[node.counter]
 
             if node.counter == self.lfu:
-                self.lfu += 1
+                self.lfu += 1 
         
         node.counter += 1 
         if node.counter not in self.freq:
             self.freq[node.counter] = DoublyLinkedList()
         self.freq[node.counter].append(node)
-
+        
         return node.value
-       
+
+
     
 
     def put(self, key: int, value: int) -> None:
+        # exists - update val, update freq
+        # not exist - 1.if have capacity: create and add to freq 1
+        # no cap - evict lfu, del if needed
 
         if key in self.cache:
             node = self.cache[key]
             node.value = value
-
-            self.freq[node.counter].remove(node)
         
+            self.freq[node.counter].remove(node)
             if self.freq[node.counter].head is None:
                 del self.freq[node.counter]
 
                 if node.counter == self.lfu:
-                    self.lfu += 1
+                    self.lfu += 1 
             
             node.counter += 1 
             if node.counter not in self.freq:
                 self.freq[node.counter] = DoublyLinkedList()
             self.freq[node.counter].append(node)
+        
         else:
 
+            node = Node(key, value)
             if len(self.cache) < self.capacity:
-                node = Node(key, value)
-
                 self.cache[key] = node
                 
-                if 1 in self.freq:
-                    self.freq[1].append(node)
-                else:
+                if 1 not in self.freq:
                     self.freq[1] = DoublyLinkedList()
-                    self.freq[1].append(node)
-                
-                self.lfu = 1
+                self.freq[1].append(node)
+                self.lfu = 1 
+            
             else:
 
-                lru = self.freq[self.lfu].head
-                self.freq[self.lfu].remove(lru)
-                del self.cache[lru.key]
+                #evict lfu
+                lru = self.freq[self.lfu]
+                del self.cache[lru.head.key]
+                lru.remove(lru.head)
 
-                if self.freq[self.lfu].head is None:
-                    del self.freq[self.lfu]
-
-                
-                node = Node(key, value)
 
                 self.cache[key] = node
-                
-                if 1 in self.freq:
-                    self.freq[1].append(node)
-                else:
+                if 1 not in self.freq:
                     self.freq[1] = DoublyLinkedList()
-                    self.freq[1].append(node)
-                
-                self.lfu = 1
-                
-
+                self.freq[1].append(node)
+                self.lfu = 1 
 
 
 
 
 
         
-
-
-
                 
 
 
