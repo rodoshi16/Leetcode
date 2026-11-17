@@ -576,4 +576,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/rodoshi16/Leetcode/tree/master/0062-unique-paths) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/rodoshi16/Leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
