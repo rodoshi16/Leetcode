@@ -1,39 +1,30 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        "abcabcbb"
-        #if duplicate -> include char, shrink window and take length, shift left 
-        #otherwise -> increase the window 
-
-        if s == "":
-            return 0
+        #in: str
+        # out: str
 
         l = 0 
-        seen = set()
-        m = 0
+        r = 0 
+        tmp = set()
+        count = 0
 
 
-        for r in range(len(s)):
-            while s[r] in seen: 
-                seen.remove(s[l])
-                l += 1 
+        while r < len(s):
+            if s[r] not in tmp:
+                tmp.add(s[r])
+                count = max(count, r - l + 1)
+                r += 1
+            else:
 
-            seen.add(s[r])
-            m = max(m, len(seen))
+                while s[r] in tmp:
+                    tmp.remove(s[l])
+                    l += 1
         
-        return m 
-    
+        return count
 
-"abcabcbb"
-
-            
-            
 
 
 
 
 
         
-
-
-
-
